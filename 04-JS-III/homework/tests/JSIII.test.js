@@ -29,6 +29,10 @@ describe('devolverPrimerElemento(arr)', function() {
   });
 });
 
+function devolverPrimerElemento(array) {
+  return array[0];
+}
+ 
 describe('devolverUltimoElemento(arr)', function() {
   it('should return the last item in the array', function() {
     expect(devolverUltimoElemento([10, 10, 16, 12])).toBe(12);
